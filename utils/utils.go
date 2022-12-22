@@ -11,3 +11,9 @@ func RandomInt() int {
 
 	return random.Int()
 }
+
+func MakePoint() bool {
+	randomNumber := RandomInt()
+
+	return randomNumber%2 == 0
+}
